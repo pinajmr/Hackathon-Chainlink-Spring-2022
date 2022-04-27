@@ -9,6 +9,153 @@
     ]
   },
   "files": {
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorInterface.sol": {
+      "lastModificationDate": 1651077867928,
+      "contentHash": "0c9be74e354bca05abc54edfdc49607e",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorInterface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "AggregatorInterface": {
+          "0.6.12+commit.27d51765.Linux.gcc": "AggregatorInterface.sol/AggregatorInterface.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol": {
+      "lastModificationDate": 1651077867930,
+      "contentHash": "6b76a24083942363411bb0b83ffeb997",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorInterface.sol",
+        "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "AggregatorV2V3Interface": {
+          "0.6.12+commit.27d51765.Linux.gcc": "AggregatorV2V3Interface.sol/AggregatorV2V3Interface.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1651077867932,
+      "contentHash": "57d487d5ebb80b57ceb68a4d9bd884e3",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "AggregatorV3Interface": {
+          "0.6.12+commit.27d51765.Linux.gcc": "AggregatorV3Interface.sol/AggregatorV3Interface.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1651077868342,
+      "contentHash": "611f626b2447ccff9ba5332460fd217f",
+      "sourceName": "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {}
+    },
     "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/forge-std/lib/ds-test/src/test.sol": {
       "lastModificationDate": 1651068175494,
       "contentHash": "82a8604fe648c30a9bd56444368704f0",
@@ -46,10 +193,51 @@
         }
       }
     },
-    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/src/Contract.sol": {
-      "lastModificationDate": 1651069402751,
-      "contentHash": "b65ef6b0a6ab49be3ba9203c061ff903",
-      "sourceName": "src/Contract.sol",
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1651073936280,
+      "contentHash": "a9d2146925da52142435d3bb8df53c3c",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "ERC20": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "ERC20.sol/ERC20.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1651073936282,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -76,17 +264,281 @@
         }
       },
       "imports": [],
-      "versionRequirement": "^0.8.13",
+      "versionRequirement": "^0.8.0",
+      "artifacts": {}
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1651073936296,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.0",
       "artifacts": {
-        "Contract": {
-          "0.8.13+commit.abaa5c0e.Linux.gcc": "Contract.sol/Contract.json"
+        "IERC20Metadata": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "IERC20Metadata.sol/IERC20Metadata.json"
         }
       }
     },
-    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/test/Contract.t.sol": {
-      "lastModificationDate": 1651070345533,
-      "contentHash": "f9017b1f09469f87a435d5ba9d89928c",
-      "sourceName": "test/Contract.t.sol",
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/lib/openzeppelin-contracts/contracts/utils/Context.sol": {
+      "lastModificationDate": 1651073936361,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {
+        "Context": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "Context.sol/Context.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/src/PriceConsumerV3.sol": {
+      "lastModificationDate": 1651076923483,
+      "contentHash": "4d1c0cb9317dde81b9383dafa26e6348",
+      "sourceName": "src/PriceConsumerV3.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/chainlink-brownie-contracts/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionRequirement": "^0.8.7",
+      "artifacts": {}
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/src/StakeContract.sol": {
+      "lastModificationDate": 1651073440228,
+      "contentHash": "4fe49bba979fcb25e441aa423b547c19",
+      "sourceName": "src/StakeContract.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "StakeContract": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "StakeContract.sol/StakeContract.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/src/mocks/MockERC20.sol": {
+      "lastModificationDate": 1651075901562,
+      "contentHash": "11f9fcef016fb11eee2aaab055ec7606",
+      "sourceName": "src/mocks/MockERC20.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol"
+      ],
+      "versionRequirement": "^0.8.13",
+      "artifacts": {
+        "MockERC20": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "MockERC20.sol/MockERC20.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/src/mocks/MockV3Aggregator.sol": {
+      "lastModificationDate": 1651077523279,
+      "contentHash": "7750d555d73e77722f6a254f84a771f8",
+      "sourceName": "src/mocks/MockV3Aggregator.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorInterface.sol",
+        "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV2V3Interface.sol",
+        "lib/chainlink-brownie-contracts/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol"
+      ],
+      "versionRequirement": "^0.6.0",
+      "artifacts": {
+        "MockV3Aggregator": {
+          "0.6.12+commit.27d51765.Linux.gcc": "MockV3Aggregator.sol/MockV3Aggregator.json"
+        }
+      }
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/test/PriceConsumer.t.sol": {
+      "lastModificationDate": 1651077676453,
+      "contentHash": "a343eb87b3d3e80e3d2da568c03e1143",
+      "sourceName": "test/PriceConsumer.t.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs"
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ]
+            }
+          },
+          "evmVersion": "london"
+        }
+      },
+      "imports": [
+        "lib/forge-std/lib/ds-test/src/test.sol"
+      ],
+      "versionRequirement": "^0.8.0",
+      "artifacts": {}
+    },
+    "/mnt/c/Users/rey_g/Downloads/Blockchain/Hackathon-Chainlink-Spring-2022/Foundry/test/StakeContract.t.sol": {
+      "lastModificationDate": 1651075949911,
+      "contentHash": "a05c2e0db66f840091537481e49ef29a",
+      "sourceName": "test/StakeContract.t.sol",
       "solcConfig": {
         "settings": {
           "optimizer": {
@@ -114,12 +566,17 @@
       },
       "imports": [
         "lib/forge-std/lib/ds-test/src/test.sol",
-        "src/Contract.sol"
+        "lib/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol",
+        "lib/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+        "lib/openzeppelin-contracts/contracts/utils/Context.sol",
+        "src/StakeContract.sol",
+        "src/mocks/MockERC20.sol"
       ],
       "versionRequirement": "^0.8.13",
       "artifacts": {
-        "ContractTest": {
-          "0.8.13+commit.abaa5c0e.Linux.gcc": "Contract.t.sol/ContractTest.json"
+        "StakeContractTest": {
+          "0.8.13+commit.abaa5c0e.Linux.gcc": "StakeContract.t.sol/StakeContractTest.json"
         }
       }
     }
